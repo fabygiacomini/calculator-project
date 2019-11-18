@@ -37,9 +37,10 @@ body {
   display: grid;
   grid-template-rows: repeat(5, 1fr);
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 1px;
+  grid-gap: 2px;
   background-color: #999;
 }
+
 /* div */
 .equal {
   grid-column: 4 / 5;
@@ -47,12 +48,12 @@ body {
 } 
 
 /* buttons */
-
-
 .operator {
   background-color: rgb(139, 197, 188);
   color: white;
   padding: 5px;
+  box-shadow: 0 0 0 1.5px rgba(153, 238, 231, 0.5),
+    0 0 0 1.5px rgba(34, 34, 34, 0.5);
 }
 .operator:hover {
   background-color: rgb(128, 182, 174);
@@ -60,6 +61,8 @@ body {
 
 .key {
   background-color: rgb(209, 206, 206);
+  box-shadow: 0 0 0 1.5px rgba(229, 231, 231, 0.5),
+    0 0 0 1.5px rgba(34, 34, 34, 0.5);
 }
 .key:hover {
   background-color: #bbbbbb;
