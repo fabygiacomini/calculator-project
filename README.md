@@ -1,2 +1,3 @@
-# calculator-project
- Calculator made with JavaScript for The Odin Porject's exercise
+# Calculator Project
+ Calculator made with JavaScript, HTML and CSS for The Odin Porject's exercise,
+ and as part of my learning.
